@@ -1,0 +1,51 @@
+[
+        {
+        "name": "Almond Vanilla Cream Puff",
+        "category": "sweet pastry",
+        "description": "insert description here",
+        "price": "$100/",
+        "image": "images/almond_vanilla_cream_puff.png"
+    },
+    {
+        "name": "Apple Tarte Tatin",
+        "category":"sweet pastry",
+        "description": "insert description here",
+        "price": "$100",
+        "image": "images/apple_tarte_tatin.png"
+    },
+    {
+        "name": "Pistachio Cream Puff",
+        "category":"sweet pastry",
+        "description": "insert description here",
+        "price": "$100",
+        "image": "images/pistachio_cream_puff.png"
+    },
+    {
+        "name": "Strawberry Clotted Cream Puff",
+        "category":"sweet pastry",
+        "description": "insert description here",
+        "price": "$100",
+        "image": "images/strawberry_clotted_cream_puff.png"
+    },
+    {
+        "name": "Double Fromage Cheesecake",
+        "category":"cake",
+        "description": "insert description here",
+        "price": "$100",
+        "image": "images/double_fromage_cheesecake.png"
+    },
+    {
+        "name": "Peach Tea Mousse Cake",
+        "category":"cake",
+        "description": "insert description here",
+        "price": "$100",
+        "image": "images/peach_tea_mousse_cake.png"
+    },
+    {
+        "name": "Saltbread",
+        "category":"bread",
+        "description": "insert description here",
+        "price": "$100",
+        "image": "/images/saltbread.jpg"
+    }
+]
