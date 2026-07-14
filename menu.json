@@ -1,51 +1,128 @@
 [
-        {
-        "name": "Almond Vanilla Cream Puff",
-        "category": "sweet pastry",
+    {
+        "name": "Taro Bread",
+        "category": "sweet breads",
         "description": "insert description here",
-        "price": "$100/",
-        "image": "images/almond_vanilla_cream_puff.png"
+        "price": "",
+        "image": ""
     },
     {
-        "name": "Apple Tarte Tatin",
-        "category":"sweet pastry",
+        "name": "Coffee Bread",
+        "category": "sweet breads",
         "description": "insert description here",
-        "price": "$100",
-        "image": "images/apple_tarte_tatin.png"
+        "price": "",
+        "image": ""
     },
     {
-        "name": "Pistachio Cream Puff",
-        "category":"sweet pastry",
+        "name": "Pineapple (Bolo Bao) Bread",
+        "category": "sweet breads",
         "description": "insert description here",
-        "price": "$100",
-        "image": "images/pistachio_cream_puff.png"
+        "price": "",
+        "image": ""
     },
     {
-        "name": "Strawberry Clotted Cream Puff",
-        "category":"sweet pastry",
+        "name": "Sweet Potato Crème Brûlée Saltbread",
+        "category": "sweet breads",
         "description": "insert description here",
-        "price": "$100",
-        "image": "images/strawberry_clotted_cream_puff.png"
+        "price": "",
+        "image": ""
+    },
+    {
+        "name": "Honey Butter Saltbread",
+        "category": "sweet breads",
+        "description": "insert description here",
+        "price": "",
+        "image": ""
+    },
+    {
+        "name": "Chocolate Saltbread",
+        "category": "sweet breads",
+        "description": "insert description here",
+        "price": "",
+        "image": ""
+    },
+    {
+        "name": "Char Siu Bread",
+        "category": "savory breads",
+        "description": "insert description here",
+        "price": "",
+        "image": ""
     },
     {
         "name": "Double Fromage Cheesecake",
-        "category":"cake",
+        "category": "cakes",
         "description": "insert description here",
         "price": "$100",
         "image": "images/double_fromage_cheesecake.png"
     },
     {
+        "name": "Strawberry Matcha Cake",
+        "category": "cakes",
+        "description": "insert description here",
+        "price": "",
+        "image": ""
+    },
+    {
+        "name": "Thai Tea Crepe Cake",
+        "category": "cakes",
+        "description": "insert description here",
+        "price": "",
+        "image": ""
+    },
+    {
         "name": "Peach Tea Mousse Cake",
-        "category":"cake",
+        "category": "cakes",
         "description": "insert description here",
         "price": "$100",
         "image": "images/peach_tea_mousse_cake.png"
     },
     {
-        "name": "Saltbread",
-        "category":"bread",
+        "name": "Berry Roll Cake",
+        "category": "cakes",
+        "description": "insert description here",
+        "price": "",
+        "image": ""
+    },
+    {
+        "name": "Fruit Roll Cake",
+        "category": "cakes",
+        "description": "insert description here",
+        "price": "",
+        "image": ""
+    },
+    {
+        "name": "Strawberry Cream Puff",
+        "category": "sweet pastries",
+        "description": "insert description here",
+        "price": "",
+        "image": ""
+    },
+    {
+        "name": "Pistachio Cream Puff",
+        "category": "sweet pastries",
         "description": "insert description here",
         "price": "$100",
-        "image": "/images/saltbread.jpg"
+        "image": "images/pistachio_cream_puff.png"
+    },
+    {
+        "name": "Almond Cream Puff",
+        "category": "sweet pastries",
+        "description": "insert description here",
+        "price": "",
+        "image": ""
+    },
+    {
+        "name": "Cookie Crust Cream Puff",
+        "category": "sweet pastries",
+        "description": "insert description here",
+        "price": "",
+        "image": ""
+    },
+    {
+        "name": "Chocolate Chip Cookies",
+        "category": "cookies",
+        "description": "insert description here",
+        "price": "",
+        "image": ""
     }
 ]
