@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Urban Goath";
-  src: url("Urban Goath.otf") format("opentype");
+  font-family: "Cafetalk";
+  src: url("Cafetalk-KV9eo.otf") format("opentype");
 }
 
 body{
@@ -9,7 +9,10 @@ body{
 }
 
 h1 {
-  font-family: "Urban Goath", "Lucida Console", "Courier New", monospace;
+  font-family: "Cafetalk", "Lucida Console", "Courier New", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .navbar {
