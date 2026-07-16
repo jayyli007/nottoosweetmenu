@@ -39,7 +39,7 @@
         "category": "cakes",
         "description": "insert description here",
         "price": "$23",
-        "image": ""
+        "image": "images/no_photo_yet.png"
     },
     {
         "name": "Taro Bread",
@@ -84,6 +84,13 @@
         "image": "images/bacon_cheese_bread.jpg"
     },
     {
+        "name": "Plain Salt Bread",
+        "category": "salt breads",
+        "description": "insert description here",
+        "price": "$2.75",
+        "image": "images/saltbread.jpg"
+    },
+    {
         "name": "Sweet Potato Crème Brûlée Saltbread",
         "category": "salt breads",
         "description": "insert description here",
@@ -95,21 +102,49 @@
         "category": "salt breads",
         "description": "insert description here",
         "price": "$3",
-        "image": ""
+        "image": "images/no_photo_yet.png"
     },
     {
         "name": "Chocolate Saltbread",
         "category": "salt breads",
         "description": "insert description here",
         "price": "$3.25",
-        "image": ""
+        "image": "images/no_photo_yet.png"
     },
     {
-        "name": "Cream Puffs",
+        "name": "Standard Pastry Cream Puff",
         "category": "sweet pastries",
-        "description": "Fillings: Standard Pastry Cream $2 each, Strawberry Cream $2.25 each, Pistachio $3 each, Almond $2.75 each. Modification: Cookie Crust +$2.25 each",
-        "price": "",
-        "image": "images/pistachio_cream_puff.jpg"
+        "description": "insert description here",
+        "price": "$2",
+        "image": "images/no_photo_yet.png"
+    },
+    {
+        "name": "Strawberry Cream Puff",
+        "category": "sweet pastries",
+        "description": "insert description here",
+        "price": "$2.25",
+        "image": "images/strawberry_cream_puff.png"
+    },
+    {
+        "name": "Pistachio Cream Puff",
+        "category": "sweet pastries",
+        "description": "insert description here",
+        "price": "$3",
+        "image": "images/pistachio_cream_puff.png"
+    },
+    {
+        "name": "Almond Vanilla Cream Puff",
+        "category": "sweet pastries",
+        "description": "insert description here",
+        "price": "$2.75",
+        "image": "images/almond_vanilla_cream_puff.png"
+    },
+    {
+        "name": "Cookie Crust Cream Puff",
+        "category": "sweet pastries",
+        "description": "insert description here",
+        "price": "$2.25",
+        "image": "images/cookie_crust_cream_puff.jpg"
     },
     {
         "name": "Egg Tart",
@@ -126,10 +161,59 @@
         "image": "images/chocolate_chip_cookies.jpg"
     },
     {
-        "name": "Macarons",
+        "name": "Plain Macaron",
         "category": "macarons",
-        "description": "Plain $3 each, Pistachio $3.50 each, Cookies and Cream $3.25 each, Ube $3.50 each, Strawberry $3.25 each, Matcha $3.25 each, Coffee $3.25 each, Milk Tea $3.25 each",
-        "price": "",
-        "image": ""
+        "description": "insert description here",
+        "price": "$3",
+        "image": "images/no_photo_yet.png"
+    },
+    {
+        "name": "Pistachio Macaron",
+        "category": "macarons",
+        "description": "insert description here",
+        "price": "$3.50",
+        "image": "images/no_photo_yet.png"
+    },
+    {
+        "name": "Cookies and Cream Macaron",
+        "category": "macarons",
+        "description": "insert description here",
+        "price": "$3.25",
+        "image": "images/no_photo_yet.png"
+    },
+    {
+        "name": "Ube Macaron",
+        "category": "macarons",
+        "description": "insert description here",
+        "price": "$3.50",
+        "image": "images/no_photo_yet.png"
+    },
+    {
+        "name": "Strawberry Macaron",
+        "category": "macarons",
+        "description": "insert description here",
+        "price": "$3.25",
+        "image": "images/no_photo_yet.png"
+    },
+    {
+        "name": "Matcha Macaron",
+        "category": "macarons",
+        "description": "insert description here",
+        "price": "$3.25",
+        "image": "images/no_photo_yet.png"
+    },
+    {
+        "name": "Coffee Macaron",
+        "category": "macarons",
+        "description": "insert description here",
+        "price": "$3.25",
+        "image": "images/no_photo_yet.png"
+    },
+    {
+        "name": "Milk Tea Macaron",
+        "category": "macarons",
+        "description": "insert description here",
+        "price": "$3.25",
+        "image": "images/no_photo_yet.png"
     }
 ]

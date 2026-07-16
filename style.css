@@ -1,6 +1,15 @@
+@font-face {
+  font-family: "Urban Goath";
+  src: url("Urban Goath.otf") format("opentype");
+}
+
 body{
   font-family: "Lucida Console", "Courier New", monospace;
   place-items: center;
+}
+
+h1 {
+  font-family: "Urban Goath", "Lucida Console", "Courier New", monospace;
 }
 
 .navbar {
