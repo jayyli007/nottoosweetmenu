@@ -1,5 +1,47 @@
 [
     {
+        "name": "Double Fromage Cheesecake",
+        "category": "cakes",
+        "description": "insert description here",
+        "price": "$40",
+        "image": "images/double_fromage_cheesecake.png"
+    },
+    {
+        "name": "Strawberry Matcha Cake",
+        "category": "cakes",
+        "description": "insert description here",
+        "price": "$50",
+        "image": "images/strawberry_matcha_cake.jpg"
+    },
+    {
+        "name": "Thai Tea Crepe Cake",
+        "category": "cakes",
+        "description": "insert description here",
+        "price": "$50",
+        "image": "images/thai_tea_crepe_cake.jpg"
+    },
+    {
+        "name": "Peach Tea Mousse Cake",
+        "category": "cakes",
+        "description": "insert description here",
+        "price": "$45",
+        "image": "images/peach_tea_mousse_cake.png"
+    },
+    {
+        "name": "Berry Roll Cake",
+        "category": "cakes",
+        "description": "insert description here",
+        "price": "$20",
+        "image": "images/berry_roll_cake.jpg"
+    },
+    {
+        "name": "Fruit Roll Cake",
+        "category": "cakes",
+        "description": "insert description here",
+        "price": "$23",
+        "image": ""
+    },
+    {
         "name": "Taro Bread",
         "category": "sweet breads",
         "description": "insert description here",
@@ -42,85 +84,36 @@
         "image": "images/bacon_cheese_bread.jpg"
     },
     {
-        "name": "Double Fromage Cheesecake",
-        "category": "cakes",
-        "description": "insert description here",
-        "price": "$40",
-        "image": "images/double_fromage_cheesecake.png"
-    },
-    {
-        "name": "Strawberry Matcha Cake",
-        "category": "cakes",
-        "description": "insert description here",
-        "price": "$50",
-        "image": "images/strawberry_matcha_cake.jpg"
-    },
-    {
-        "name": "Thai Tea Crepe Cake",
-        "category": "cakes",
-        "description": "insert description here",
-        "price": "$50",
-        "image": "images/thai_tea_crepe_cake.jpg"
-    },
-    {
-        "name": "Peach Tea Mousse Cake",
-        "category": "cakes",
-        "description": "insert description here",
-        "price": "$45",
-        "image": "images/peach_tea_mousse_cake.png"
-    },
-    {
-        "name": "Macarons",
-        "category": "macarons",
-        "description": "Plain $3 each, Pistachio $3.50 each, Cookies and Cream $3.25 each, Ube $3.50 each, Strawberry $3.25 each, Matcha $3.25 each, Coffee $3.25 each, Milk Tea $3.25 each",
-        "price": "",
-        "image": ""
-    },
-    {
-        "name": "Berry Roll Cake",
-        "category": "roll cake",
-        "description": "insert description here",
-        "price": "$20",
-        "image": "images/berry_roll_cake.jpg"
-    },
-    {
-        "name": "Fruit Roll Cake",
-        "category": "roll cake",
-        "description": "insert description here",
-        "price": "$23",
-        "image": ""
-    },
-    {
         "name": "Sweet Potato Crème Brûlée Saltbread",
-        "category": "salt bread",
+        "category": "salt breads",
         "description": "insert description here",
         "price": "$3.50",
         "image": "images/sweet_potato_creme_brulee_saltbread.jpg"
     },
     {
         "name": "Honey Butter Saltbread",
-        "category": "salt bread",
+        "category": "salt breads",
         "description": "insert description here",
         "price": "$3",
         "image": ""
     },
     {
         "name": "Chocolate Saltbread",
-        "category": "salt bread",
+        "category": "salt breads",
         "description": "insert description here",
         "price": "$3.25",
         "image": ""
     },
     {
         "name": "Cream Puffs",
-        "category": "cream puffs",
+        "category": "sweet pastries",
         "description": "Fillings: Standard Pastry Cream $2 each, Strawberry Cream $2.25 each, Pistachio $3 each, Almond $2.75 each. Modification: Cookie Crust +$2.25 each",
         "price": "",
         "image": "images/pistachio_cream_puff.jpg"
     },
     {
         "name": "Egg Tart",
-        "category": "sweet pastry",
+        "category": "sweet pastries",
         "description": "insert description here",
         "price": "",
         "image": "images/egg_tart.jpg"
@@ -131,5 +124,12 @@
         "description": "insert description here",
         "price": "$24 for dozen",
         "image": "images/chocolate_chip_cookies.jpg"
+    },
+    {
+        "name": "Macarons",
+        "category": "macarons",
+        "description": "Plain $3 each, Pistachio $3.50 each, Cookies and Cream $3.25 each, Ube $3.50 each, Strawberry $3.25 each, Matcha $3.25 each, Coffee $3.25 each, Milk Tea $3.25 each",
+        "price": "",
+        "image": ""
     }
 ]

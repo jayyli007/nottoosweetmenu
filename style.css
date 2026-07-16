@@ -31,6 +31,13 @@ body{
 .nav-links a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px 0;
+}
+
 #menu {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
