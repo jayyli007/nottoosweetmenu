@@ -3,126 +3,133 @@
         "name": "Taro Bread",
         "category": "sweet breads",
         "description": "insert description here",
-        "price": "",
-        "image": ""
+        "price": "$3",
+        "image": "images/taro_bread.jpg"
     },
     {
         "name": "Coffee Bread",
         "category": "sweet breads",
         "description": "insert description here",
-        "price": "",
-        "image": ""
+        "price": "$2.50",
+        "image": "images/coffee_bread.jpg"
     },
     {
         "name": "Pineapple (Bolo Bao) Bread",
         "category": "sweet breads",
         "description": "insert description here",
-        "price": "",
-        "image": ""
+        "price": "$2.50",
+        "image": "images/pineapple_bolo_bao_bread.jpg"
     },
     {
-        "name": "Sweet Potato Crème Brûlée Saltbread",
+        "name": "Melon Bun (Melonpan) Bread",
         "category": "sweet breads",
         "description": "insert description here",
         "price": "",
-        "image": ""
+        "image": "images/melon_bun_melonpan_bread.jpg"
     },
     {
-        "name": "Honey Butter Saltbread",
-        "category": "sweet breads",
+        "name": "BBQ Pork (Char Siu) Bread",
+        "category": "savory breads",
         "description": "insert description here",
-        "price": "",
-        "image": ""
+        "price": "$3.50",
+        "image": "images/bbq_pork_char_siu_bread.jpg"
     },
     {
-        "name": "Chocolate Saltbread",
-        "category": "sweet breads",
-        "description": "insert description here",
-        "price": "",
-        "image": ""
-    },
-    {
-        "name": "Char Siu Bread",
+        "name": "Bacon Cheese Bread",
         "category": "savory breads",
         "description": "insert description here",
         "price": "",
-        "image": ""
+        "image": "images/bacon_cheese_bread.jpg"
     },
     {
         "name": "Double Fromage Cheesecake",
         "category": "cakes",
         "description": "insert description here",
-        "price": "$100",
+        "price": "$40",
         "image": "images/double_fromage_cheesecake.png"
     },
     {
         "name": "Strawberry Matcha Cake",
         "category": "cakes",
         "description": "insert description here",
-        "price": "",
-        "image": ""
+        "price": "$50",
+        "image": "images/strawberry_matcha_cake.jpg"
     },
     {
         "name": "Thai Tea Crepe Cake",
         "category": "cakes",
         "description": "insert description here",
-        "price": "",
-        "image": ""
+        "price": "$50",
+        "image": "images/thai_tea_crepe_cake.jpg"
     },
     {
         "name": "Peach Tea Mousse Cake",
         "category": "cakes",
         "description": "insert description here",
-        "price": "$100",
+        "price": "$45",
         "image": "images/peach_tea_mousse_cake.png"
     },
     {
-        "name": "Berry Roll Cake",
-        "category": "cakes",
-        "description": "insert description here",
+        "name": "Macarons",
+        "category": "macarons",
+        "description": "Plain $3 each, Pistachio $3.50 each, Cookies and Cream $3.25 each, Ube $3.50 each, Strawberry $3.25 each, Matcha $3.25 each, Coffee $3.25 each, Milk Tea $3.25 each",
         "price": "",
         "image": ""
+    },
+    {
+        "name": "Berry Roll Cake",
+        "category": "roll cake",
+        "description": "insert description here",
+        "price": "$20",
+        "image": "images/berry_roll_cake.jpg"
     },
     {
         "name": "Fruit Roll Cake",
-        "category": "cakes",
+        "category": "roll cake",
         "description": "insert description here",
-        "price": "",
+        "price": "$23",
         "image": ""
     },
     {
-        "name": "Strawberry Cream Puff",
-        "category": "sweet pastries",
+        "name": "Sweet Potato Crème Brûlée Saltbread",
+        "category": "salt bread",
         "description": "insert description here",
-        "price": "",
+        "price": "$3.50",
+        "image": "images/sweet_potato_creme_brulee_saltbread.jpg"
+    },
+    {
+        "name": "Honey Butter Saltbread",
+        "category": "salt bread",
+        "description": "insert description here",
+        "price": "$3",
         "image": ""
     },
     {
-        "name": "Pistachio Cream Puff",
-        "category": "sweet pastries",
+        "name": "Chocolate Saltbread",
+        "category": "salt bread",
         "description": "insert description here",
-        "price": "$100",
-        "image": "images/pistachio_cream_puff.png"
-    },
-    {
-        "name": "Almond Cream Puff",
-        "category": "sweet pastries",
-        "description": "insert description here",
-        "price": "",
+        "price": "$3.25",
         "image": ""
     },
     {
-        "name": "Cookie Crust Cream Puff",
-        "category": "sweet pastries",
+        "name": "Cream Puffs",
+        "category": "cream puffs",
+        "description": "Fillings: Standard Pastry Cream $2 each, Strawberry Cream $2.25 each, Pistachio $3 each, Almond $2.75 each. Modification: Cookie Crust +$2.25 each",
+        "price": "",
+        "image": "images/pistachio_cream_puff.jpg"
+    },
+    {
+        "name": "Egg Tart",
+        "category": "sweet pastry",
         "description": "insert description here",
         "price": "",
-        "image": ""
+        "image": "images/egg_tart.jpg"
     },
     {
         "name": "Chocolate Chip Cookies",
         "category": "cookies",
         "description": "insert description here",
-        "price": "",
-        "image": ""
+        "price": "$24 for dozen",
+        "image": "images/chocolate_chip_cookies.jpg"
     }
 ]
