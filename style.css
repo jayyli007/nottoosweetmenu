@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Cafetalk";
-  src: url("Cafetalk-KV9eo.otf") format("opentype");
+  font-family: "Beachday";
+  src: url("beachday.ttf") format("truetype");
 }
 
 body{
@@ -9,7 +9,7 @@ body{
 }
 
 h1 {
-  font-family: "Cafetalk", "Lucida Console", "Courier New", monospace;
+  font-family: "Beachday", "Lucida Console", "Courier New", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
