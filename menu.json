@@ -3,217 +3,224 @@
         "name": "Double Fromage Cheesecake",
         "category": "cakes",
         "description": "",
-        "price": "pending...",
+        "price": "$45",
         "image": "images/double_fromage_cheesecake.png"
     },
     {
         "name": "Strawberry Matcha Cake",
         "category": "cakes",
         "description": "",
-        "price": "pending...",
+        "price": "$55",
         "image": "images/strawberry_matcha_cake.jpg"
     },
     {
         "name": "Thai Tea Crepe Cake",
         "category": "cakes",
         "description": "",
-        "price": "pending...",
+        "price": "$50",
         "image": "images/thai_tea_crepe_cake.jpg"
     },
     {
         "name": "Peach Tea Mousse Cake",
         "category": "cakes",
         "description": "",
-        "price": "pending...",
+        "price": "$50",
         "image": "images/peach_tea_mousse_cake.png"
     },
     {
         "name": "Berry Roll Cake",
         "category": "cakes",
         "description": "",
-        "price": "pending...",
+        "price": "$20",
         "image": "images/berry_roll_cake.jpg"
     },
     {
         "name": "Fruit Roll Cake",
         "category": "cakes",
         "description": "",
-        "price": "pending...",
-        "image": "images/no_photo_yet.png"
+        "price": "$23",
+        "image": "images/fruit_roll_cake.jpg"
     },
     {
         "name": "Taro Bread",
         "category": "sweet breads",
-        "description": "",
-        "price": "pending...",
+        "description": "Batch of 10",
+        "price": "$37.50",
         "image": "images/taro_bread.jpg"
     },
     {
         "name": "Coffee Bread",
         "category": "sweet breads",
-        "description": "",
-        "price": "pending...",
+        "description": "Batch of 10",
+        "price": "$32.50",
         "image": "images/coffee_bread.jpg"
     },
     {
         "name": "Pineapple (Bolo Bao) Bread",
         "category": "sweet breads",
-        "description": "",
-        "price": "pending...",
+        "description": "Batch of 10",
+        "price": "$30",
         "image": "images/pineapple_bolo_bao_bread.jpg"
+    },
+    {
+        "name": "Coconut Cream Bun",
+        "category": "sweet breads",
+        "description": "Batch of 10",
+        "price": "$30",
+        "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Melon Bun (Melonpan) Bread",
         "category": "sweet breads",
-        "description": "",
-        "price": "pending...",
+        "description": "Batch of 12",
+        "price": "$30",
         "image": "images/melon_bun_melonpan_bread.jpg"
     },
     {
         "name": "BBQ Pork (Char Siu) Bread",
         "category": "savory breads",
-        "description": "",
-        "price": "pending...",
+        "description": "Batch of 12",
+        "price": "$42",
         "image": "images/bbq_pork_char_siu_bread.jpg"
     },
     {
         "name": "Bacon Cheese Bread",
         "category": "savory breads",
-        "description": "",
-        "price": "pending...",
+        "description": "Batch of 8",
+        "price": "$25",
         "image": "images/bacon_cheese_bread.jpg"
     },
     {
         "name": "Plain Salt Bread",
         "category": "salt breads",
-        "description": "",
-        "price": "pending...",
+        "description": "Batch of 12",
+        "price": "$36",
         "image": "images/saltbread.jpg"
     },
     {
         "name": "Sweet Potato Crème Brûlée Saltbread",
         "category": "salt breads",
-        "description": "",
-        "price": "pending...",
+        "description": "Batch of 12",
+        "price": "$48",
         "image": "images/sweet_potato_creme_brulee_saltbread.jpg"
     },
     {
         "name": "Honey Butter Saltbread",
         "category": "salt breads",
-        "description": "",
-        "price": "pending...",
-        "image": "images/no_photo_yet.png"
+        "description": "Batch of 12",
+        "price": "$38",
+        "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Chocolate Saltbread",
         "category": "salt breads",
-        "description": "",
-        "price": "pending...",
-        "image": "images/no_photo_yet.png"
+        "description": "Batch of 12",
+        "price": "$42",
+        "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Standard Pastry Cream Puff",
         "category": "sweet pastries",
-        "description": "",
-        "price": "pending...",
-        "image": "images/no_photo_yet.png"
+        "description": "Any amount (No set batch #)",
+        "price": "$3",
+        "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Strawberry Cream Puff",
         "category": "sweet pastries",
-        "description": "",
-        "price": "pending...",
+        "description": "Any amount (No set batch #)",
+        "price": "$3.50",
         "image": "images/strawberry_cream_puff.png"
     },
     {
         "name": "Pistachio Cream Puff",
         "category": "sweet pastries",
-        "description": "",
-        "price": "pending...",
+        "description": "Any amount (No set batch #)",
+        "price": "$4",
         "image": "images/pistachio_cream_puff.png"
     },
     {
         "name": "Almond Vanilla Cream Puff",
         "category": "sweet pastries",
-        "description": "",
-        "price": "pending...",
+        "description": "Any amount (No set batch #)",
+        "price": "$3.75",
         "image": "images/almond_vanilla_cream_puff.png"
     },
     {
-        "name": "Cookie Crust Cream Puff",
+        "name": "Croissant",
         "category": "sweet pastries",
-        "description": "",
-        "price": "pending...",
-        "image": "images/cookie_crust_cream_puff.jpg"
+        "description": "Batch of 10",
+        "price": "$4",
+        "image": "images/no_photo_yet.jpg"
     },
     {
-        "name": "Egg Tart",
+        "name": "Portuguese Egg Tart (Pastel de Nata)",
         "category": "sweet pastries",
-        "description": "",
-        "price": "pending...",
+        "description": "Batch of 6 or 12",
+        "price": "$3.25",
         "image": "images/egg_tart.jpg"
     },
     {
         "name": "Chocolate Chip Cookies",
         "category": "cookies",
-        "description": "",
-        "price": "pending...",
+        "description": "Batch of 12",
+        "price": "$30",
         "image": "images/chocolate_chip_cookies.jpg"
     },
     {
-        "name": "Plain Macaron",
+        "name": "Plain Buttercream Macaron",
         "category": "macarons",
-        "description": "",
-        "price": "pending...",
-        "image": "images/no_photo_yet.png"
+        "description": "Batch of 12",
+        "price": "$3.25",
+        "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Pistachio Macaron",
         "category": "macarons",
-        "description": "",
-        "price": "pending...",
-        "image": "images/no_photo_yet.png"
+        "description": "Batch of 12",
+        "price": "$3.60",
+        "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Cookies and Cream Macaron",
         "category": "macarons",
-        "description": "",
-        "price": "pending...",
-        "image": "images/no_photo_yet.png"
+        "description": "Batch of 12",
+        "price": "$3.30",
+        "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Ube Macaron",
         "category": "macarons",
-        "description": "",
-        "price": "pending...",
-        "image": "images/no_photo_yet.png"
+        "description": "Batch of 12",
+        "price": "$3.70",
+        "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Strawberry Macaron",
         "category": "macarons",
-        "description": "",
-        "price": "pending...",
-        "image": "images/no_photo_yet.png"
+        "description": "Batch of 12",
+        "price": "$3.40",
+        "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Matcha Macaron",
         "category": "macarons",
-        "description": "",
-        "price": "pending...",
-        "image": "images/no_photo_yet.png"
+        "description": "Batch of 12",
+        "price": "$3.50",
+        "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Coffee Macaron",
         "category": "macarons",
-        "description": "",
-        "price": "pending...",
-        "image": "images/no_photo_yet.png"
+        "description": "Batch of 12",
+        "price": "$3.40",
+        "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Milk Tea Macaron",
         "category": "macarons",
-        "description": "",
-        "price": "pending...",
-        "image": "images/no_photo_yet.png"
+        "description": "Batch of 12",
+        "price": "$3.50",
+        "image": "images/no_photo_yet.jpg"
     }
 ]

@@ -14,12 +14,67 @@
     </ul>
   </nav>
 
+<div class="order-info">
   <h1>How to Order</h1>
-  <p>DM me on Instagram at @nottoosweetig with your order information. 
-  <br>Please be sure to include any allergens, quantity of goods, and any special instructions. </p>
-  <p>Pickup location: San Jose, California</p>
-  <p>Venmo: @insert-venmo-here</p>
-  <p>Zelle: insert-phone-or-email-here</p>
+  <p>Submit the form below to place your order! 
+  <br>You will recieve a text message with pickup details once as order is being processed.
+  <br>Include any allergens and any special instructions in Additional Order Details. </p>
+  <p>Venmo: @Levin-Gong
+  <br>Zelle: +1(669)-799-7135</p>
+  <p><em>Your pickup details (location &amp; time) will be texted ASAP.</em>
+  <br><em>Be prepared to present cash or proof of payment by pickup.</em></p>
+</div>
 
+  <form id="order-form" action="https://formsubmit.co/not2sweet408@gmail.com" method="POST">
+
+    <section id="add-to-order">
+      <h2>Order Form</h2>
+      <select id="item-select">
+        <!-- populated by itemDropdown() -->
+      </select>
+
+      <select id="quantity-select">
+        <!-- static 1-20, no JS needed -->
+      </select>
+
+      <button type="button" id="add-order-btn">Add to Order</button>
+    </section>
+
+    <section id="order-summary">
+      <table id="summary-table">
+        <tbody id="summary-body">
+          <!-- populated/re-rendered by addOrder() -->
+        </tbody>
+      </table>
+      <p>Total: $<span id="total-price">0.00</span></p>
+    </section>
+
+    <section id="payment-section">
+      <label for="payment-select">Payment Option:</label>
+      <select id="payment-select" name="payment">
+        <option value="">Select payment method</option>
+        <!-- Zelle/Venmo/Cash options populated by dropdown() in order.js -->
+      </select>
+    </section>
+
+    <section id="phone-section">
+      <label for="phone-input">Phone Number:</label>
+      <input type="tel" id="phone-input" name="phone" placeholder="(xxx)-xxx-xxxx" required>
+    </section>
+
+    <section id="details-section">
+      <label for="details-textarea">Additional Order Details:</label>
+      <textarea id="details-textarea" name="details" rows="5"></textarea>
+      <p><span id="word-count">0</span>/250 words</p>
+    </section>
+
+    <!-- filled in by formSubmit() right before the form actually submits -->
+    <input type="hidden" name="order_summary" id="order-summary-hidden">
+    <input type="hidden" name="_subject" value="New Not Too Sweet Order">
+    <input type="hidden" name="_captcha" value="false">
+
+    <button type="submit" id="submit-order-btn">Submit Order</button>
+  </form>
+  <script src="order.js"></script>
 </body>
 </html>

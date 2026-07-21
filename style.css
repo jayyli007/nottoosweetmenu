@@ -1,18 +1,115 @@
 @font-face {
-  font-family: "Beachday";
-  src: url("beachday.ttf") format("truetype");
+  font-family: "Modern Romance";
+  src: url("fonts/modern_romance/Modern Romance.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Urban Goath";
+  src: url("fonts/Urban-Goath.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Gummy Candy";
+  src: url("fonts/GummyCandyDemoRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ZT Nature";
+  src: url("fonts/zt_nature/ZTNature-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ZT Nature";
+  src: url("fonts/zt_nature/ZTNature-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "ZT Nature";
+  src: url("fonts/zt_nature/ZTNature-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ZT Nature";
+  src: url("fonts/zt_nature/ZTNature-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "ZT Nature";
+  src: url("fonts/zt_nature/ZTNature-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ZT Nature";
+  src: url("fonts/zt_nature/ZTNature-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Apple Garamond";
+  src: url("fonts/AppleGaramond.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Apple Garamond";
+  src: url("fonts/AppleGaramond-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Apple Garamond";
+  src: url("fonts/AppleGaramond-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Apple Garamond";
+  src: url("fonts/AppleGaramond-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Apple Garamond";
+  src: url("fonts/AppleGaramond-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Apple Garamond";
+  src: url("fonts/AppleGaramond-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
 }
 
 body{
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "ZT Nature", "Lucida Console", "Courier New", monospace;
   place-items: center;
 }
 
 h1 {
-  font-family: "Beachday", "Lucida Console", "Courier New", monospace;
+  font-family: "Gummy Candy", "Lucida Console", "Courier New", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  transform: translateZ(0);
+  font-weight: bold;
+  font-size: 64px;
 }
 
 .navbar {
@@ -64,4 +161,34 @@ h1 {
   height: 300px;
   object-fit: cover;
   display: block;
+}
+
+.order-info {
+  text-align: center;
+}
+
+#order-summary {
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 16px 0;
+  max-width: 500px;
+}
+
+#summary-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#summary-table td {
+  padding: 6px 4px;
+}
+
+.remove-item-btn {
+  background: none;
+  border: none;
+  color: #a33;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
 }
