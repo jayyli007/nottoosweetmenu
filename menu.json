@@ -157,7 +157,7 @@
         "name": "Portuguese Egg Tart (Pastel de Nata)",
         "category": "sweet pastries",
         "description": "Batch of 6 or 12",
-        "price": "$3.25",
+        "price": "$19.50 or $37.50",
         "image": "images/egg_tart.jpg"
     },
     {
@@ -171,56 +171,56 @@
         "name": "Plain Buttercream Macaron",
         "category": "macarons",
         "description": "Batch of 12",
-        "price": "$3.25",
+        "price": "$38",
         "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Pistachio Macaron",
         "category": "macarons",
         "description": "Batch of 12",
-        "price": "$3.60",
+        "price": "$40",
         "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Cookies and Cream Macaron",
         "category": "macarons",
         "description": "Batch of 12",
-        "price": "$3.30",
+        "price": "$40",
         "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Ube Macaron",
         "category": "macarons",
         "description": "Batch of 12",
-        "price": "$3.70",
+        "price": "$44",
         "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Strawberry Macaron",
         "category": "macarons",
         "description": "Batch of 12",
-        "price": "$3.40",
+        "price": "$40",
         "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Matcha Macaron",
         "category": "macarons",
         "description": "Batch of 12",
-        "price": "$3.50",
+        "price": "$42",
         "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Coffee Macaron",
         "category": "macarons",
         "description": "Batch of 12",
-        "price": "$3.40",
+        "price": "$40",
         "image": "images/no_photo_yet.jpg"
     },
     {
         "name": "Milk Tea Macaron",
         "category": "macarons",
         "description": "Batch of 12",
-        "price": "$3.50",
+        "price": "$42",
         "image": "images/no_photo_yet.jpg"
     }
 ]
