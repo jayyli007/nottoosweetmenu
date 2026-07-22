@@ -16,8 +16,8 @@
 
 <div class="order-info">
   <h1>How to Order</h1>
-  <p>Submit the form below to place your order! 
-  <br>You will recieve a text message with pickup details once as order is being processed.
+  <p>Submit the form below to place your order!
+  <br>You will recieve a text message with pickup details once your order is processed.
   <br>Include any allergens and any special instructions in Additional Order Details. </p>
   <p>Venmo: @Levin-Gong
   <br>Zelle: +1(669)-799-7135</p>
@@ -29,11 +29,11 @@
 
     <section id="add-to-order">
       <h2>Order Form</h2>
-      <select id="item-select">
+      <select id="item-select" name="item_choice">
         <!-- populated by itemDropdown() -->
       </select>
 
-      <select id="quantity-select">
+      <select id="quantity-select" name="quantity_choice">
         <!-- static 1-20, no JS needed -->
       </select>
 
@@ -73,6 +73,7 @@
     <input type="hidden" name="_subject" value="New Not Too Sweet Order">
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_next" value="https://not2sweet.shop/orderComplete.html">
+    <input type="hidden" name="_url" value="https://not2sweet.shop/order.html">
 
     <button type="submit" id="submit-order-btn">Submit Order</button>
   </form>
