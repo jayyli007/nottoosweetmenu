@@ -25,7 +25,7 @@
   <br><em>Be prepared to present cash or proof of payment by pickup.</em></p>
 </div>
 
-  <form id="order-form" action="https://formsubmit.co/not2sweet4092@gmail.com" method="POST">
+  <form id="order-form" action="https://api.web3forms.com/submit" method="POST">
 
     <section id="add-to-order">
       <h2>Order Form</h2>
@@ -70,8 +70,10 @@
 
     <!-- filled in by formSubmit() right before the form actually submits -->
     <input type="hidden" name="order_summary" id="order-summary-hidden">
-    <input type="hidden" name="_subject" value="New Not Too Sweet Order">
-    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="subject" value="New Not Too Sweet Order">
+    <input type="hidden" name="access_key" value="ca4f821a-f359-4546-910e-d240bff6fe2a">
+    <input type="hidden" name="redirect" value="https://not2sweet.shop/orderComplete.html">
+    <input type="checkbox" name="botcheck" style="display: none;">
 
     <button type="submit" id="submit-order-btn">Submit Order</button>
   </form>
