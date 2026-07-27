@@ -24,14 +24,73 @@ function createCard(item) {
     card.dataset.category = item.category;              // sets a data-category="..." attribute, used later to filter cards by category
     
     // build the card's inner HTML from the item's fields
-    card.innerHTML = `                              
-        <img src="${item.image}" alt="${item.name}">
+    // card thumbnail always shows the first photo; cycling through the
+    // rest only happens in the expanded modal
+    card.innerHTML = `
+        <img src="${item.images[0]}" alt="${item.name}">
         <h3>${item.name}</h3>
         <p>${item.price}</p>
-        <p>${item.description}</p>
+        <p>${item.batchSize}</p>
     `;
+
+    card.addEventListener("click", () => openModal(item));
+
     return card;
 }
+
+
+// --- item popup modal: click a card to open it, "Add to Cart" hands the
+// item off to the order page via localStorage since menu.js and order.js
+// are separate pages with no shared state ---
+const modalOverlay = document.getElementById("item-modal");
+const modalImg = document.getElementById("modal-img");
+const modalPrevBtn = document.getElementById("modal-prev-btn");
+const modalNextBtn = document.getElementById("modal-next-btn");
+const modalName = document.getElementById("modal-name");
+const modalPrice = document.getElementById("modal-price");
+const modalDescription = document.getElementById("modal-description");
+const modalBatchSize = document.getElementById("modal-batch-size");
+const modalAddBtn = document.getElementById("modal-add-btn");
+
+let selectedItem = null;
+let currentImageIndex = 0;
+
+function showImage(index) {
+    currentImageIndex = index;
+    modalImg.src = selectedItem.images[currentImageIndex];
+    modalImg.alt = selectedItem.name;
+
+    // only show an arrow when there's actually somewhere left to scroll
+    modalPrevBtn.classList.toggle("hidden", currentImageIndex === 0);
+    modalNextBtn.classList.toggle("hidden", currentImageIndex === selectedItem.images.length - 1);
+}
+
+function openModal(item) {
+    selectedItem = item;
+    showImage(0);
+    modalName.textContent = item.name;
+    modalPrice.textContent = item.price;
+    modalDescription.textContent = item.description;
+    modalBatchSize.textContent = item.batchSize;
+    modalOverlay.classList.remove("hidden");
+}
+
+modalPrevBtn.addEventListener("click", () => showImage(currentImageIndex - 1));
+modalNextBtn.addEventListener("click", () => showImage(currentImageIndex + 1));
+
+function closeModal() {
+    modalOverlay.classList.add("hidden");
+}
+
+modalOverlay.addEventListener("click", (event) => {
+    if (event.target === modalOverlay) closeModal();
+});
+document.getElementById("modal-close-btn").addEventListener("click", closeModal);
+
+modalAddBtn.addEventListener("click", () => {
+    localStorage.setItem("pendingCartItem", selectedItem.name);
+    window.location.href = "order.html";
+});
 
 
 // global declaration of <div id ="menu">
