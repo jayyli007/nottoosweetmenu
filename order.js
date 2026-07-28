@@ -1,9 +1,22 @@
 /*
 THIS IS THE ORDER FORM PAGE
-cart lives as an in-memory array, same pattern as allItems on the menu page
+cart lives in sessionStorage so items added from the menu page (possibly
+across several visits) all accumulate here, and it survives this page's own
+reloads — same pattern as loadCart()/saveCart() in menu.js
 */
 
 let allItems = [];   // this page's own copy — order.js can't reach menu.js's allItems, separate pages
+
+function loadCart() {
+    return JSON.parse(sessionStorage.getItem("cart") || "[]");
+}
+
+function saveCart(cart) {
+    sessionStorage.setItem("cart", JSON.stringify(cart));
+}
+
+let cart = loadCart();   // { name, quantity, price } objects, built up by addOrder()
+renderSummary();
 
 const quantities = Array.from({ length: 20 }, (_, i) => i + 1);
 dropdown(document.getElementById("quantity-select"), quantities);
@@ -18,8 +31,6 @@ fetch("menu.json")
 
         dropdown(document.getElementById("payment-select"), ["Zelle", "Venmo", "Cash"]);
     });
-
-let cart = [];   // { name, quantity, price } objects, built up by addOrder()
 
 // generic: takes a <select> element and an array of strings,
 // builds one <option> per string and appends it. reused for both
@@ -48,6 +59,7 @@ function addOrder() {
         cart.push({ name: name, quantity: quantity, price: menuItem.price });
     }
 
+    saveCart(cart);
     renderSummary();
 }
 
@@ -83,6 +95,7 @@ function renderSummary() {
         removeBtn.title = "Remove item?";
         removeBtn.addEventListener("click", () => {
             cart = cart.filter(item => item.name !== entry.name);
+            saveCart(cart);
             renderSummary();
         });
         removeCell.appendChild(removeBtn);
@@ -170,6 +183,9 @@ function formSubmit(event) {
     const summaryText = lines.join("\n") + `\nTotal: $${total}`;
 
     document.getElementById("order-summary-hidden").value = summaryText;
+
+    // order is going through — clear the cart so the next visit starts fresh
+    sessionStorage.removeItem("cart");
     // no preventDefault here — validation passed, let the form actually submit
 }
 

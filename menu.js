@@ -5,6 +5,16 @@ IT FOLLOWS AN INDIVIDUAL ITEM --> MENU --> FILTERED MENU STRUCTURE
 
 let allItems = [];   // top-level scope, so render/filter can both reach it later
 
+// cart lives in sessionStorage so it survives navigating menu.html <-> order.html
+// for the whole browser session, but clears once the tab/browser closes
+function loadCart() {
+    return JSON.parse(sessionStorage.getItem("cart") || "[]");
+}
+
+function saveCart(cart) {
+    sessionStorage.setItem("cart", JSON.stringify(cart));
+}
+
 
 // converts menu.json ---> a workable array, stores it, then triggers first render
 fetch("menu.json")
@@ -39,9 +49,9 @@ function createCard(item) {
 }
 
 
-// --- item popup modal: click a card to open it, "Add to Cart" hands the
-// item off to the order page via localStorage since menu.js and order.js
-// are separate pages with no shared state ---
+// --- item popup modal: click a card to open it, "Add to Cart" adds it
+// straight to the shared sessionStorage cart so multiple items picked from
+// the menu all accumulate on the order page ---
 const modalOverlay = document.getElementById("item-modal");
 const modalImg = document.getElementById("modal-img");
 const modalPrevBtn = document.getElementById("modal-prev-btn");
@@ -88,7 +98,14 @@ modalOverlay.addEventListener("click", (event) => {
 document.getElementById("modal-close-btn").addEventListener("click", closeModal);
 
 modalAddBtn.addEventListener("click", () => {
-    localStorage.setItem("pendingCartItem", selectedItem.name);
+    const cart = loadCart();
+    const existing = cart.find(entry => entry.name === selectedItem.name);
+    if (existing) {
+        existing.quantity += 1;
+    } else {
+        cart.push({ name: selectedItem.name, quantity: 1, price: selectedItem.price });
+    }
+    saveCart(cart);
     window.location.href = "order.html";
 });
 
@@ -124,8 +141,8 @@ function filter(selectedCategories) {
 function renderFilters(items) {
 
     // isolate categories into a list
-    const categoriesTemp = items.map(item => item.category);     
-    const categories = [...new Set(categoriesTemp)];     
+    const categoriesTemp = items.map(item => item.category);
+    const categories = [...new Set(categoriesTemp)].sort();
 
     // category checkbox logic 
     for (const category of categories){
